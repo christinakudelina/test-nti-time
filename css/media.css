@@ -1,0 +1,893 @@
+@media (max-width: 1580px) {
+    .header__information-block {
+        max-width: 1560px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+
+    .popular__navigation {
+        max-width: 1560px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+
+    .consultation__wrapper {
+        padding-right: 70px;
+    }
+
+    .features__card-wrapper {
+        gap: 20px;
+        padding: 24px 9px;
+    }
+
+    .features__icon {
+        background-size: contain;
+        height: 86px;
+        width: 86px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .header::before {
+        display: none;
+    }
+
+    .header__top-block {
+        display: none;
+    }
+
+    .consultation__wrapper {
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .consultation__wrapper::before {
+        display: none;
+    }
+
+    .consultation__img {
+        display: none;
+    }
+
+    .features__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 134px);
+    }
+
+    .footer__wrapper {
+        gap: 20px;
+    }
+
+    .footer__connection,
+    .footer__contacts,
+    .footer__about {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1170px) {
+    .advertisement__content {
+        grid-template-columns: 100%;
+        grid-template-rows: 442px 422px;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+
+    .advertisement__banner {
+        width: 100%;
+    }
+
+    .advertisement__banner::before {
+        width: 233px;
+        height: 272px;
+        right: 84px;
+        top: 45px;
+        left: auto;
+        background-size: contain;
+        background-image: url('../image/banner-img.png');
+        z-index: 1;
+    }
+
+    .advertisement__banner::after {
+        position: absolute;
+        content: '';
+        width: 44px;
+        max-height: 339px;
+        left: 20%;
+        top: 43px;
+        bottom: 40px;
+        background-size: contain;
+        background-image: url('../image/Benjamin-desctop.svg');
+        background-repeat: space;
+        z-index: 0;
+    }
+
+    .advertisement__discounts::before {
+        content: '';
+        position: absolute;
+        width: 531px;
+        top: -75px;
+        right: -20px;
+        bottom: -5px;
+        background: radial-gradient(circle, rgba(249, 156, 218, 1) 6%, rgba(0, 0, 0, 0) 75%);
+        z-index: 0;
+    }
+
+    .up-to,
+    .number,
+    .procent,
+    .advertisement__descr {
+        position: relative;
+        z-index: 1;
+    }
+
+    .swiper-button-next {
+        right: 13px;
+        top: 74%;
+        border-radius: 100%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .header__container {
+        padding-top: 8px;
+        padding-bottom: 46px;
+    }
+
+    .header__client-block {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__client-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header__logo svg {
+        width: 41px;
+        height: 41px;
+    }
+
+    .places-link,
+    .phone-link {
+        display: block;
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+    }
+
+    .phone-link {
+        order: 3;
+    }
+
+    .header__form {
+        margin: 0;
+    }
+
+    .header__logo {
+        margin: 0;
+    }
+
+    .header__link-catalog {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .burger-btn {
+        display: flex;
+    }
+
+    .header__client-block {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .header__search-wrapper {
+        gap: 8px;
+    }
+
+    .form__input {
+        padding: 10px 3px 10px 20px;
+        line-height: 130%;
+        border-radius: 10px;
+    }
+
+    .form__btn {
+        top: 3px;
+        right: 3px;
+    }
+
+    .form__btn svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .header__information-block {
+        padding-top: 0;
+    }
+
+    .mySwiper {
+        height: 100%;
+    }
+
+    .advertisement__swiper {
+        width: 100%;
+        height: 617px;
+    }
+
+    .advertisement__content {
+        grid-template-rows: 442px 266px;
+        padding: 10px 10px 40px 10px;
+    }
+
+    .advertisement__slide {
+        height: 262px;
+    }
+
+    .swiper__discounts {
+        position: relative;
+    }
+
+    .swiper__discounts::before {
+        position: absolute;
+        content: '';
+        width: 365px;
+        height: 295px;
+        top: -60px;
+        right: -92px;
+        background: radial-gradient(circle, rgba(249, 156, 218, 1) 0%, rgba(0, 0, 0, 0) 76%);
+        z-index: -1;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .swiper-grid-column>.swiper-wrapper {
+        width: 100% !important;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    .advertisement__slide-1 {
+        height: 275px !important;
+        background-size: 100% 100%;
+    }
+
+    .advertisement__slide-1::before {
+        right: 20px;
+        width: 142px;
+        height: 165px;
+        background-image: url('../image/slide1-1024.png');
+    }
+
+    .advertisement__slide-1::after {
+        content: '';
+        position: absolute;
+        width: 247px;
+        height: 208px;
+        top: 23px;
+        right: 0;
+        background-image: url('../image/benjamin.svg');
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+
+    .advertisement__slide {
+        height: 244px !important;
+        width: 268px;
+        padding: 10px 10px 8px 10px;
+        background-size: 100% 100%;
+    }
+
+
+    .swiper__discount {
+        padding: 1px 8px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+
+    .swiper__btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .swiper__btn svg {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    .advertisement__swiper-btn-next {
+        display: none;
+    }
+
+    .swiper__card-img {
+        min-height: 126px;
+        margin-bottom: 8px;
+    }
+
+    .card-img2,
+    .card-img3 {
+        width: 74px;
+        height: 86px;
+    }
+
+    .swiper__card-descr {
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .swiper__card-volume {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .swiper__card-new-price {
+        display: block;
+        font-size: 18px;
+    }
+
+    .swiper__card-old-price {
+        font-size: 14px;
+    }
+
+    .swiper__card-old-price::before {
+        top: 8px;
+        left: -2px;
+        right: 0;
+    }
+
+    .swiper-button-prev {
+        top: 139px;
+    }
+
+    .swiper-button-next {
+        top: 121px;
+    }
+
+    .popular__container {
+        position: relative;
+        padding-bottom: 72px;
+    }
+
+    .popular__heading {
+        margin-bottom: 30px;
+    }
+
+    .popular__title {
+        font-size: 32px;
+        line-height: 110%;
+    }
+
+    .popular__heading-btn,
+    .rebate__heading-link {
+        position: absolute;
+        bottom: 0;
+        left: 41%;
+    }
+
+    .form__btn-consultation,
+    .rebate__heading-link,
+    .popular__heading-btn {
+        gap: 20px;
+        padding: 3px 3px 3px 20px;
+        font-size: 15px;
+        line-height: 140%;
+        border-radius: 10px;
+    }
+
+    .form__btn-consultation svg,
+    .rebate__heading-link svg,
+    .popular__heading-btn svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .popular__navigation {
+        margin-bottom: 20px;
+    }
+
+    .popular__swiper {
+        position: relative;
+        min-height: 560px;
+        padding-bottom: 30px;
+    }
+
+    .popular-slide {
+        height: 230px !important;
+    }
+
+    .popular__item-categories {
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    .popular__item-count {
+        font-size: 14px;
+    }
+
+    .swiper-pagination {
+        display: block;
+        position: absolute;
+        width: 30px;
+        bottom: 0;
+    }
+
+    .swiper-pagination-lock {
+        display: block;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 5px;
+        height: 5px;
+        background: linear-gradient(139deg, #dd3197 0%, #822faf 100%);
+    }
+
+    .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+        background-color: #dfdff0;
+    }
+
+    .popular-swiper-next {
+        display: none;
+    }
+
+    .features__card-wrapper {
+        gap: 28px;
+        padding: 19px 8px 24px 8px;
+    }
+
+    .features__core {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .features__descr {
+        font-size: 12px;
+    }
+
+    .rebate__container {
+        position: relative;
+        padding-top: 88px;
+        padding-bottom: 72px;
+        height: 100%;
+    }
+
+    .rebate__heading {
+        margin-bottom: 30px;
+    }
+
+    .rebate__title {
+        font-size: 32px;
+        line-height: 110%;
+    }
+
+    .rebate__swiper-content {
+        min-height: 570px;
+    }
+
+    .rebate__swiper {
+        min-height: 544px;
+    }
+
+    .rebate-slide {
+        height: calc(50% - 28px) !important;
+        padding: 10px 10px 8px 10px;
+        background-size: 100% 100%;
+    }
+
+    .renate__swiper-btn-next {
+        display: none;
+    }
+
+    .consultation__container {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+
+    .form__title {
+        font-size: 32px;
+        line-height: 110%;
+    }
+
+    .form__descr {
+        font-size: 15px;
+    }
+
+    .form__descr {
+        margin-bottom: 30px;
+    }
+
+    .form__input {
+        font-size: 14px;
+    }
+
+    .placeholder,
+    .form__input::placeholder {
+        font-size: 14px;
+    }
+
+    .placeholder {
+        left: 52px;
+    }
+
+    .form__error {
+        bottom: -11px;
+        font-size: 9px;
+    }
+
+    .form__input-consultation1,
+    .form__input-consultation2 {
+        padding-left: 50px;
+    }
+
+    .consultation__input-svg1 {
+        margin-bottom: 10px;
+    }
+
+    .form__bottom {
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form__btn-consultation {
+        order: -1;
+    }
+
+    .modal {
+        width: auto;
+        height: auto;
+        padding: 66px 10px;
+        top: 280px;
+        left: 10px;
+        right: 10px;
+        background-size: contain;
+    }
+
+    .modal__title {
+        margin-bottom: 24px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .modal__descr {
+        min-width: 335px;
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    .modal__btn,
+    .modal__btn svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .modal__btn path {
+        stroke: #3b3c40;
+    }
+
+    .footer__container {
+        padding: 30px 20px 0 10px;
+        border-radius: 0;
+    }
+
+    .footer__logo {
+        margin-left: 10px;
+        width: 41px;
+        height: 41px;
+    }
+
+    .footer__catalog {
+        display: none;
+    }
+
+    .footer__wrapper {
+        position: relative;
+        justify-content: stretch;
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    .footer__info {
+        margin-bottom: 40px;
+    }
+
+    .footer__connection {
+        position: absolute;
+        bottom: 32px;
+        left: 148px;
+        gap: 24px;
+    }
+
+    .footer__connection-link {
+        padding: 11px 15px;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .footer__about-store {
+        gap: 50px;
+    }
+
+    .footer__about {
+        order: -1;
+    }
+
+    .footer__about-title,
+    .footer__contacts-title {
+        margin-bottom: 12px;
+        font-size: 17px;
+        line-height: 140%;
+    }
+
+    .footer__contacts-link {
+        margin-bottom: 24px;
+    }
+
+    .footer__social {
+        margin-bottom: 24px;
+    }
+
+    .footer__banks-cards {
+        margin: 0;
+        gap: 12px;
+    }
+
+    .bank-card1,
+    .bank-card2,
+    .bank-card3 {
+        background-size: contain;
+    }
+
+    .bank-card1 {
+        width: 25px;
+        height: 16px;
+    }
+
+    .bank-card2 {
+        width: 45px;
+        height: 14px;
+    }
+
+    .bank-card3 {
+        width: 45px;
+        height: 12px;
+    }
+
+    .footer__social-vk,
+    .footer__social-yotube {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer__nav-list {
+        gap: 12px;
+    }
+
+    .footer__nav-link,
+    .footer__contacts-link {
+        font-size: 15px;
+    }
+
+    .footer__signature {
+        padding-top: 28px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .header__link-info {
+        font-size: 15px;
+    }
+
+    .advertisement__content {
+        grid-template-rows: 355px 262px;
+        row-gap: 10px;
+        border-radius: 20px;
+    }
+
+    .advertisement__banner {
+        padding: 22px 20px;
+    }
+
+    .advertisement__banner::before {
+        width: 142px;
+        height: 165px;
+    }
+
+    .advertisement__discounts,
+    .advertisement__descr {
+        margin-top: auto;
+    }
+
+    .advertisement__descr {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .advertisement__banner::after {
+        width: 247px;
+        height: 208px;
+        right: 0;
+        left: auto;
+        background-image: url('../image/benjamin.svg');
+    }
+
+    .up-to {
+        margin-right: 5px;
+        font-size: 24px;
+    }
+
+    .up-to::before {
+        width: 30px;
+        height: 5px;
+        top: 29px;
+    }
+
+    .number {
+        font-size: 70px;
+    }
+
+    .procent {
+        font-size: 45px;
+    }
+
+    .swiper__descr {
+        margin-top: auto;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .swiper__discounts {
+        display: inline-block;
+        margin-top: auto;
+    }
+
+    .swiper__discounts::before {
+        top: -78px;
+    }
+
+    .advertisement__slide-1::before {
+        top: 43px;
+    }
+
+    .advertisement__swiper {
+        height: calc(617px - 50px) !important;
+    }
+
+    .advertisement__slide-1 {
+        padding: 22px 20px;
+        min-width: calc(355px - 40px);
+        width: calc(100% - 100px) !important;
+        height: calc(295px - 44px) !important;
+        border-radius: 20px;
+    }
+
+    .swiper__discounts::before {
+        height: 311px;
+        top: -100px;
+        right: -63px;
+    }
+
+    .features__container {
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+@media (max-width: 640px) {
+    .advertisement__swiper-wrapper {
+        width: calc(100% - 40px) !important;
+    }
+
+    .advertisement__banner::before {
+        right: 19px;
+    }
+
+    .advertisement__discounts::before {
+        width: 416px;
+        top: -59px;
+        right: -81px;
+        bottom: -11px;
+        background: radial-gradient(circle, rgba(249, 156, 218, 1) 4%, rgba(0, 0, 0, 0) 66%);
+    }
+
+    .popular__heading-btn,
+    .rebate__heading-link {
+        left: 33%;
+    }
+
+    .advertisement__slide-1 {
+        background-image: url('../image/background-advenced-mobile.png');
+    }
+
+    .advertisement__slide {
+        background-image: url('../image/background-slide-mobile.png');
+    }
+
+    .rebate-slide {
+        background-image: url('../image/background-slide-mobile.png');
+    }
+
+    .consultation__container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .consultation__wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+    .advertisement__slide,
+    .popular-slide,
+    .rebate-slide {
+        max-width: calc(281px - 30px) !important;
+    }
+
+    .popular-slide1 {
+        background-image: url('../image/popular-img1-mobile.png');
+    }
+
+    .popular-slide2 {
+        background-image: url('../image/popular-img2-mobile.png');
+    }
+
+    .popular-slide3 {
+        background-image: url('../image/popular-img3-mobile.png');
+    }
+
+    .popular-slide4 {
+        background-image: url('../image/popular-img4-mobile.png');
+    }
+
+    .rebate-slide {
+        min-width: calc(173px - 20px);
+    }
+
+    .popular__heading-btn,
+    .rebate__heading-link {
+        left: 28%;
+    }
+}
+
+@media (max-width: 440px) {
+    .advertisement__swiper-wrapper {
+        width: 100% !important;
+    }
+
+    .advertisement__container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .advertisement__content {
+        grid-template-rows: 295px 262px;
+    }
+
+    .advertisement__slide,
+    .popular-slide,
+    .rebate-slide {
+        width: calc(173px - 30px) !important;
+    }
+}
